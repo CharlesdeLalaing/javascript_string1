@@ -32,3 +32,43 @@ let prénomDeux = prompt("Tu peux me redire ton prénom?");
 let nomUn = prompt("Tu peux aussi me donner ton nom de famille?");
 let nom = prénomDeux.toUpperCase() + " " + nomUn;
 alert("bonjour" + " " + nom);
+
+
+// # Consignes de l'exercice 5
+let phrase = 'Bonjour tout le monde    ';
+
+
+// ### 2. Afficher la longueur de la phrase
+
+console.log(phrase.length);
+
+// ### 3. Enlever l'espace à la fin grâce à une méthode
+
+phrase = phrase.trim();
+
+// ### 4. Reafficher la longueur de la phrase
+
+console.log(phrase.length);
+// ### 5. Afficher uniquement la dernière lettre de la phrase
+
+console.log(phrase.charAt(phrase.length-1));
+// ### 6. Enlever "Bonjour" de la phrase
+
+phrase = phrase.replace("Bonjour","");
+console.log(phrase);
+
+// ### 7. Remettre "Bonjour" au debut de la phrase grâce à une méthode
+
+phrase = phrase.replace("","Bonjour");
+console.log(phrase);
+// ### 8. Supprimer toute la phrase sauf "Bonjour" grâce à une méthode
+
+phrase = phrase.slice(7,21);
+console.log(phrase);
+// ### 9. Remplacer dans la phrase le mot "bonjour" par le mot "string"
+phrase = 'Bonjour tout le monde    ';
+phrase = phrase.replace("Bonjour","string");
+console.log(phrase);
+// ### 10. Bonus : Donner un chiffre aléatoire 
+
+console.log(Math.random())
