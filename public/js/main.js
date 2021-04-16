@@ -92,3 +92,4 @@ console.log(phrase);
 // ### 10. Bonus : Donner un chiffre aléatoire 
 
 console.log(Math.floor(Math.random()*100)+1)
+console.log(Math.round(Math.random()*(100-1))) //entre parenthese c'est max et min pour faire un range
