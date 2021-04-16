@@ -91,4 +91,4 @@ console.log(phrase);
 
 // ### 10. Bonus : Donner un chiffre aléatoire 
 
-console.log(Math.random()*100)
+console.log(Math.floor(Math.random()*100)+1)
